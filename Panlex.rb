@@ -12,5 +12,6 @@ require_relative 'Df'
 require_relative 'Dm'
 require_relative 'Dn'
 require_relative 'Ex'
+require_relative 'I1'
 
 DataMapper.finalize
