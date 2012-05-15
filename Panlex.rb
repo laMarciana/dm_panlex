@@ -20,5 +20,6 @@ require_relative 'Mi'
 require_relative 'Mn'
 require_relative 'Us'
 require_relative 'Wc'
+require_relative 'Wcex'
 
 DataMapper.finalize
