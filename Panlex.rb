@@ -16,5 +16,6 @@ require_relative 'I1'
 require_relative 'Lc'
 require_relative 'Lv'
 require_relative 'Md'
+require_relative 'Mi'
 
 DataMapper.finalize
