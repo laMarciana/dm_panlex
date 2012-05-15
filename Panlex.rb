@@ -9,5 +9,7 @@ require_relative 'Av'
 require_relative 'Cp'
 require_relative 'Cu'
 require_relative 'Df'
+require_relative 'Dm'
+require_relative 'Dn'
 
 DataMapper.finalize
