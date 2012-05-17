@@ -4,7 +4,7 @@ class Ap
    storage_names[:default] = 'ap'
 
    property :ap, Integer, :key => true
-   property :dt, Date, :required => true#, :default => "('now'::text)::date"
+   property :created_at, Date, :field => 'dt', :required => true
    property :tt, Text, :required => true, :unique_index => true
    property :ur, Text
    property :bn, Text
@@ -21,6 +21,6 @@ class Ap
 
    belongs_to :apli, :parent_key => :li, :child_key  => :li
 
-   has n, :avs, :parent_key => :ap, :child_key => :ap
+   has n, :avs, :parent_key => :ap, :child_key => :ap, :constraint => :destroy
    has n, :mns, :parent_key => :ap, :child_key => :ap
 end

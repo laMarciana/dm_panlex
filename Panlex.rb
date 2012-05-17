@@ -1,5 +1,7 @@
 require 'data_mapper'
 require 'dm-core'
+require 'dm-timestamps'
+require 'dm-constraints'
 require 'dm-migrations'
 
 DataMapper.setup(:default, "postgres://postgres:ornitorrinc@localhost/panlex_wc")
