@@ -19,7 +19,7 @@ class Ap
    property :co, Text
    property :ad, Text
 
-   belongs_to :apli, 'Apli', :parent_key => :li, :child_key  => :li
+   belongs_to :apli, :parent_key => :li, :child_key  => :li
 
    has n, :avs, :parent_key => :ap, :child_key => :ap
    has n, :mns, :parent_key => :ap, :child_key => :ap
