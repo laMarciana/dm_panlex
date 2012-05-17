@@ -9,6 +9,6 @@ class Us
    property :al, Text, :required => true, :unique_index => true
    property :sm, Text
    property :ht, Text
-   property :ok, Boolean, :required => true, :default => true
-   property :ad, Boolean, :required => true, :default => true
+   property :ok, Boolean, :required => true, :default => false
+   property :ad, Boolean, :required => true, :default => false
 end
