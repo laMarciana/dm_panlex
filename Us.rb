@@ -4,7 +4,7 @@ class Us
    storage_names[:default] = 'us'
 
    property :us, Integer, :key => true
-   property :dt, Date, :required => true#, :default => "('now'::text)::date"
+   property :created_at, Date, :field => 'dt', :required => true
    property :nm, Text
    property :al, Text, :required => true, :unique_index => true
    property :sm, Text
