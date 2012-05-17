@@ -4,9 +4,9 @@ class Ex
    storage_names[:default] = 'ex'
 
    property :ex, Integer, :key => true
-   property :lv, Integer, :unique_index => :ex_lv_tt_key, :index => true
-   property :tt, Text, :unique_index => :ex_lv_tt_key, :index => true
-   property :td, Text, :index => true
+   property :lv, Integer, :required => true, :unique_index => :ex_lv_tt_key, :index => true
+   property :tt, Text, :required => true, :unique_index => :ex_lv_tt_key, :index => true
+   property :td, Text, :required => true, :index => true
 
    belongs_to :lv, :parent_key => :lv, :child_key  => :lv
 
