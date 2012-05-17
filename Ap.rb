@@ -4,7 +4,7 @@ class Ap
    storage_names[:default] = 'ap'
 
    property :ap, Integer, :key => true
-   property :dt, Date, :required => true, :default => "('now'::text)::date"
+   property :dt, Date, :required => true#, :default => "('now'::text)::date"
    property :tt, Text, :required => true, :unique_index => true
    property :ur, Text
    property :bn, Text

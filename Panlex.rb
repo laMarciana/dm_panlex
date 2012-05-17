@@ -1,7 +1,8 @@
 require 'data_mapper'
 require 'dm-core'
+require 'dm-migrations'
 
-DataMapper.setup(:default, "postgres://postgres:ornitorrinc@localhost/panlex")
+DataMapper.setup(:default, "postgres://postgres:ornitorrinc@localhost/panlex_wc")
 
 require_relative 'Ap'
 require_relative 'Apli'
@@ -23,3 +24,5 @@ require_relative 'Wc'
 require_relative 'Wcex'
 
 DataMapper.finalize
+
+DataMapper.auto_migrate!
