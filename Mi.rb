@@ -5,4 +5,6 @@ class Mi
 
    property :mn, Integer, :key => true
    property :tt, Text, :required => true
+
+   belongs_to :mn, :parent_key => :mn, :child_key  => :mn
 end
