@@ -10,6 +10,6 @@ class Dn
    belongs_to :ex, :parent_key => :ex, :child_key  => :ex
    belongs_to :mn, :parent_key => :mn, :child_key  => :mn
 
-   has n, :md, :parent_key => :dn, :child_key => :dn
-   has n, :wc, :parent_key => :dn, :child_key => :dn
+   has n, :mds, :parent_key => :dn, :child_key => :dn
+   has n, :wcs, :parent_key => :dn, :child_key => :dn
 end

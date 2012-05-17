@@ -12,9 +12,9 @@ class Lv
 
    belongs_to :lc, :parent_key => :lc, :child_key  => :lc
 
-   has n, :av, :parent_key => :lv, :child_key => :lv
-   has n, :cp, :parent_key => :lv, :child_key => :lv
-   has n, :cu, :parent_key => :lv, :child_key => :lv
-   has n, :df, :parent_key => :lv, :child_key => :lv
-   has n, :ex, :parent_key => :lv, :child_key => :lv
+   has n, :avs, :parent_key => :lv, :child_key => :lv
+   has n, :cps, :parent_key => :lv, :child_key => :lv
+   has n, :cus, :parent_key => :lv, :child_key => :lv
+   has n, :dfs, :parent_key => :lv, :child_key => :lv
+   has n, :exs, :parent_key => :lv, :child_key => :lv
 end

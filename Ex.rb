@@ -10,6 +10,6 @@ class Ex
 
    belongs_to :lv, :parent_key => :lv, :child_key  => :lv
 
-   has n, :dm, :parent_key => :ex, :child_key => :ex
-   has n, :dn, :parent_key => :ex, :child_key => :ex
+   has n, :dms, :parent_key => :ex, :child_key => :ex
+   has n, :dns, :parent_key => :ex, :child_key => :ex
 end
