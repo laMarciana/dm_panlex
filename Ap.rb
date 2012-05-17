@@ -15,8 +15,12 @@ class Ap
    property :uq, Integer, :min => -32768, :max => 32767, :required => true
    property :ui, Integer, :min => -32768, :max => 32767
    property :ul, Text
-   property :li, String, :length => 2
    property :ip, Text
    property :co, Text
    property :ad, Text
+
+   belongs_to :apli, 'Apli', :parent_key => :li, :child_key  => :li
+
+   has n, :avs, :parent_key => :ap, :child_key => :ap
+   has n, :mns, :parent_key => :ap, :child_key => :ap
 end
