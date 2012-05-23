@@ -1,4 +1,4 @@
-class Dm
+class Panlex::Dm
    include DataMapper::Resource
 
    storage_names[:default] = 'dm'

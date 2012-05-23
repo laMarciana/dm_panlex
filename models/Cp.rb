@@ -1,4 +1,4 @@
-class Cp
+class Panlex::Cp
    include DataMapper::Resource
 
    storage_names[:default] = 'cp'

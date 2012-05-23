@@ -1,4 +1,4 @@
-class Cu
+class Panlex::Cu
    include DataMapper::Resource
 
    storage_names[:default] = 'cu'

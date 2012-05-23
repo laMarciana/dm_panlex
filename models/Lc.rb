@@ -1,4 +1,4 @@
-class Lc
+class Panlex::Lc
    include DataMapper::Resource
 
    storage_names[:default] = 'lc'

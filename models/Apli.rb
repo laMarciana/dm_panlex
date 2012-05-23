@@ -1,4 +1,4 @@
-class Apli
+class Panlex::Apli
    include DataMapper::Resource
 
    storage_names[:default] = 'apli'

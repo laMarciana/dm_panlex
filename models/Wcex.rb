@@ -1,4 +1,4 @@
-class Wcex
+class Panlex::Wcex
    include DataMapper::Resource
 
    storage_names[:default] = 'wcex'

@@ -1,4 +1,4 @@
-class Ap
+class Panlex::Ap
    include DataMapper::Resource
 
    storage_names[:default] = 'ap'

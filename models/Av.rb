@@ -1,4 +1,4 @@
-class Av
+class Panlex::Av
    include DataMapper::Resource
 
    storage_names[:default] = 'av'

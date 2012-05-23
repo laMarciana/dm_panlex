@@ -1,4 +1,4 @@
-class Mi
+class Panlex::Mi
    include DataMapper::Resource
 
    storage_names[:default] = 'mi'

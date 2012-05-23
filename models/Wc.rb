@@ -1,4 +1,4 @@
-class Wc
+class Panlex::Wc
    include DataMapper::Resource
 
    storage_names[:default] = 'wc'

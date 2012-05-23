@@ -1,4 +1,4 @@
-class Us
+class Panlex::Us
    include DataMapper::Resource
 
    storage_names[:default] = 'us'
