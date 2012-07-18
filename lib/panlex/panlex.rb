@@ -15,30 +15,9 @@
 # TODO: Solve above points if some one is really needed
 
 module Panlex
-   require 'data_mapper'
-   require 'dm-core'
-   require 'dm-timestamps'
-   require 'dm-constraints'
-   require 'dm-migrations'
-
-   require_relative 'models/Ap'
-   require_relative 'models/Apli'
-   require_relative 'models/Av'
-   require_relative 'models/Cp'
-   require_relative 'models/Cu'
-   require_relative 'models/Df'
-   require_relative 'models/Dm'
-   require_relative 'models/Dn'
-   require_relative 'models/Ex'
-   require_relative 'models/I1'
-   require_relative 'models/Lc'
-   require_relative 'models/Lv'
-   require_relative 'models/Md'
-   require_relative 'models/Mi'
-   require_relative 'models/Mn'
-   require_relative 'models/Us'
-   require_relative 'models/Wc'
-   require_relative 'models/Wcex'
+   Dir.glob(File.dirname(__FILE__) + '/models/*.rb') do |file|
+      require file
+   end
 
    DataMapper.finalize
 end
