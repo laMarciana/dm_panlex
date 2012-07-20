@@ -3,7 +3,6 @@
    dm-core
    dm-timestamps
    dm-constraints
-   dm-migrations
 ].each do |lib|
    require lib
 end
