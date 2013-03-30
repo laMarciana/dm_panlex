@@ -1,7 +1,7 @@
 require 'spec_helper'
 
 module Panlex
-   describe Apli, "Aprover license" do
+   describe Apli, "Approver license" do
       it "has a property id (id)" do
          should have_property :id
       end
