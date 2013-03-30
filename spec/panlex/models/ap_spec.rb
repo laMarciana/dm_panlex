@@ -62,7 +62,7 @@ module Panlex
       it "is not valid without a quality in editor's judgement" do
          should validate_presence_of :uq
       end
-      it "belongs to approver license (apli)" do
+      it "belongs to an approver license (apli)" do
          should belong_to :apli
       end
       it "has many approver varieties (av)" do
