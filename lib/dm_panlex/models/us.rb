@@ -5,7 +5,7 @@ module Dm_Panlex
       storage_names[:default] = 'us'
 
       property :us, Integer, :key => true
-      property :created_at, Date, :field => 'dt', :required => true
+      property :dt, Date, :field => 'dt', :required => true
       property :nm, Text
       property :al, Text, :required => true, :unique_index => true
       property :sm, Text

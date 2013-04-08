@@ -5,8 +5,8 @@ module Dm_Panlex
       it "has a property id (us)" do
          should have_property :us
       end
-      it "has a property enrollment date (created_at)" do
-         should have_property :created_at
+      it "has a property enrollment date (dt)" do
+         should have_property :dt
       end
       it "has a property name (nm)" do
          should have_property :nm
@@ -30,7 +30,7 @@ module Dm_Panlex
          should validate_presence_of :us
       end
       it "is not valid without an enrollment date" do
-         should validate_presence_of :created_at
+         should validate_presence_of :dt
       end
       it "is not valid without an alias" do
          should validate_presence_of :al

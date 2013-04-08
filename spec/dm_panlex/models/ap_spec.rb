@@ -5,8 +5,8 @@ module Dm_Panlex
       it "has a property id (ap)" do
          should have_property :ap
       end
-      it "has a property registration date (created_at)" do
-         should have_property :created_at
+      it "has a property registration date (dt)" do
+         should have_property :dt
       end
       it "has a property label (tt)" do
          should have_property :tt
@@ -54,7 +54,7 @@ module Dm_Panlex
          should validate_presence_of :ap
       end
       it "is not valid without a registration date" do
-         should validate_presence_of :created_at
+         should validate_presence_of :dt
       end
       it "is not valid without a label" do
          should validate_presence_of :tt

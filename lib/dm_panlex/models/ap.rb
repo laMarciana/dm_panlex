@@ -5,7 +5,7 @@ module Dm_Panlex
       storage_names[:default] = 'ap'
 
       property :ap, Integer, :key => true
-      property :created_at, Date, :field => 'dt', :required => true
+      property :dt, Date, :field => 'dt', :required => true
       property :tt, Text, :required => true, :unique_index => true
       property :ur, Text
       property :bn, Text
