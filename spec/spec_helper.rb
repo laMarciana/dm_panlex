@@ -1,4 +1,4 @@
-require 'panlex'
+require 'dm_panlex'
 
 require 'dm-rspec'
 
