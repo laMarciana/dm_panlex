@@ -3,7 +3,7 @@ Gem::Specification.new do |s|
    s.version = '0.1.0'
    s.summary = 'Data mapper models for the Panlex database'
    s.description = 'https://github.com/laMarciana/dm_panlex/'
-   s.license = ''
+   s.license = 'GPL3'
    s.homepage = 'https://github.com/laMarciana/dm_panlex/'
    s.authors = ['Marc Busqué']
    s.email = 'marc@lamarciana.com'
