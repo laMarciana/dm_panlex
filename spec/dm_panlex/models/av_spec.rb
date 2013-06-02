@@ -1,6 +1,6 @@
 require 'spec_helper'
 
-module Dm_Panlex
+module DmPanlex
    describe Av, "Approver variety" do
       it "has a property approver (ap)" do
          should have_property :ap

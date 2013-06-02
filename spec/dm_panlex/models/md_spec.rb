@@ -1,6 +1,6 @@
 require 'spec_helper'
 
-module Dm_Panlex
+module DmPanlex
    describe Md, "Metadata" do
       it "has a property id (md)" do
          should have_property :md

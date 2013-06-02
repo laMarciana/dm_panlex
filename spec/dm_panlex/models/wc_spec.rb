@@ -1,6 +1,6 @@
 require 'spec_helper'
 
-module Dm_Panlex
+module DmPanlex
    describe Wc, "Word classification" do
       it "has a property id (wc)" do
          should have_property :wc

@@ -1,6 +1,6 @@
 require 'spec_helper'
 
-module Dm_Panlex
+module DmPanlex
    describe Ap, "Approvers" do
       it "has a property id (ap)" do
          should have_property :ap

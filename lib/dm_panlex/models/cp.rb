@@ -1,4 +1,4 @@
-module Dm_Panlex
+module DmPanlex
    class Cp
       include DataMapper::Resource
 

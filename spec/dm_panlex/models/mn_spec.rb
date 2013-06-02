@@ -1,6 +1,6 @@
 require 'spec_helper'
 
-module Dm_Panlex
+module DmPanlex
    describe Mn, "Meaning" do
       it "has a property id (mn)" do
          should have_property :mn

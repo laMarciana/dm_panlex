@@ -1,6 +1,6 @@
 require 'spec_helper'
 
-module Dm_Panlex
+module DmPanlex
    describe Dn, "Denotation" do
       it "has a property id (dn)" do
          should have_property :dn

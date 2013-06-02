@@ -1,6 +1,6 @@
 require 'spec_helper'
 
-module Dm_Panlex
+module DmPanlex
    describe Lc, "Language code" do
       it "has a property code (lc)" do
          should have_property :lc

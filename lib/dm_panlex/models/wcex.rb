@@ -1,4 +1,4 @@
-module Dm_Panlex
+module DmPanlex
    class Wcex
       include DataMapper::Resource
 

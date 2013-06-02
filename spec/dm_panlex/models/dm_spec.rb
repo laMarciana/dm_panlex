@@ -1,6 +1,6 @@
 require 'spec_helper'
 
-module Dm_Panlex
+module DmPanlex
    describe Dm, "Domain descriptors" do
       it "has a property id (dm)" do
          should have_property :dm

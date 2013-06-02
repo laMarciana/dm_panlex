@@ -1,6 +1,6 @@
 require 'spec_helper'
 
-module Dm_Panlex
+module DmPanlex
    describe Cu, "Exemplar characters" do
       it "has a property variety (lv)" do
          should have_property :lv

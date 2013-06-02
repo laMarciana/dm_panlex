@@ -1,4 +1,4 @@
-module Dm_Panlex
+module DmPanlex
    class Lc
       include DataMapper::Resource
 

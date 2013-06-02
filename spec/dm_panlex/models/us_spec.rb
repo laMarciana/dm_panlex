@@ -1,6 +1,6 @@
 require 'spec_helper'
 
-module Dm_Panlex
+module DmPanlex
    describe Us, "User" do
       it "has a property id (us)" do
          should have_property :us

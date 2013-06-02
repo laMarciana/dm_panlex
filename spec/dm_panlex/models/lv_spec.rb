@@ -1,6 +1,6 @@
 require 'spec_helper'
 
-module Dm_Panlex
+module DmPanlex
    describe Lv, "Language variety" do
       it "has a property id (lv)" do
          should have_property :lv

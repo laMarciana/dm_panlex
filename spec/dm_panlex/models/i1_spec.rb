@@ -1,6 +1,6 @@
 require 'spec_helper'
 
-module Dm_Panlex
+module DmPanlex
    describe I1, "Iso codes" do
       it "has a property iso1 (iso1)" do
          should have_property :iso1

@@ -1,6 +1,6 @@
 require 'spec_helper'
 
-module Dm_Panlex
+module DmPanlex
    describe Wcex, "Word classification expression" do
       it "has a property expression (ex)" do
          should have_property :ex

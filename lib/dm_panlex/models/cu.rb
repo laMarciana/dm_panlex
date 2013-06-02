@@ -1,4 +1,4 @@
-module Dm_Panlex
+module DmPanlex
    class Cu
       include DataMapper::Resource
 

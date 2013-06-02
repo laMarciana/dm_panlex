@@ -1,6 +1,6 @@
 require 'spec_helper'
 
-module Dm_Panlex
+module DmPanlex
    describe Df, "Definition" do
       it "has a property id (df)" do
          should have_property :df

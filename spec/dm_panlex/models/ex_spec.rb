@@ -1,6 +1,6 @@
 require 'spec_helper'
 
-module Dm_Panlex
+module DmPanlex
    describe Ex, "Expression" do
       it "has a property id (ex)" do
          should have_property :ex
