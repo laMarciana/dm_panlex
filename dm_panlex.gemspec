@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
    s.name = 'dm_panlex'
-   s.version = '0.2.0'
+   s.version = '0.2.1'
    s.summary = 'Data mapper models for the Panlex database'
    s.description = 'https://github.com/laMarciana/dm_panlex/'
    s.license = 'GPL3'
