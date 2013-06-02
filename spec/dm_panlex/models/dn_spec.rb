@@ -20,12 +20,6 @@ module DmPanlex
       it "is not valid without an expression" do
          should validate_presence_of :ex
       end
-      it "belongs to an expression (ex)" do
-         should belong_to :ex
-      end
-      it "belongs to a meaning (mn)" do
-         should belong_to :mn
-      end
       it "has many metadata (md)" do
          should have_many :mds
       end

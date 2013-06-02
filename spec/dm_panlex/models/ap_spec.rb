@@ -62,9 +62,6 @@ module DmPanlex
       it "is not valid without a quality in editor's judgement" do
          should validate_presence_of :uq
       end
-      it "belongs to an approver license (apli)" do
-         should belong_to :apli
-      end
       it "has many approver varieties (av)" do
          should have_many :avs
       end

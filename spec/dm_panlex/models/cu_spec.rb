@@ -29,8 +29,5 @@ module DmPanlex
       it "is not valid without a variable" do
          should validate_presence_of :vb
       end
-      it "belongs to a language variety (lv)" do
-         should belong_to :lv
-      end
    end
 end

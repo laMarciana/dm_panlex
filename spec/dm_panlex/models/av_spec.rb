@@ -14,11 +14,5 @@ module DmPanlex
       it "is not valid without a variety" do
          should validate_presence_of :lv
       end
-      it "belongs to an approver (ap)" do
-         should belong_to :ap
-      end
-      it "belongs to a language variety (lv)" do
-         should belong_to :lv
-      end
    end
 end

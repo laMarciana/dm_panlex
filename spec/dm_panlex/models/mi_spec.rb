@@ -14,8 +14,5 @@ module DmPanlex
       it "is not valid without a text" do
          should validate_presence_of :tt
       end
-      it "belongs to a meaning (mn)" do
-         should belong_to :mn
-      end
    end
 end

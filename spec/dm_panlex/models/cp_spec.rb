@@ -20,8 +20,5 @@ module DmPanlex
       it "is not valid without an end of character range" do
          should validate_presence_of :c1
       end
-      it "belongs to a language variety (lv)" do
-         should belong_to :lv
-      end
    end
 end

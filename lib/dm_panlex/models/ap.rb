@@ -20,9 +20,7 @@ module DmPanlex
       property :co, Text
       property :ad, Text
 
-      belongs_to :apli, :parent_key => :li, :child_key  => :li
-
-      has n, :avs, :parent_key => :ap, :child_key => :ap, :constraint => :destroy
-      has n, :mns, :parent_key => :ap, :child_key => :ap
+      has n, :avs, :model => 'Av', :child_key => :ap, :constraint => :destroy
+      has n, :mns, :model => 'Mn', :child_key => :ap
    end
 end

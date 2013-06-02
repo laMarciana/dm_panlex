@@ -20,11 +20,5 @@ module DmPanlex
       it "is not valid without a Panlex word-class expression" do
          should validate_presence_of :ex
       end
-      it "belongs to a denotation (dn)" do
-         should belong_to :dn
-      end
-      it "belongs to a word class expressions (wcex)" do
-         should belong_to :wcex
-      end
    end
 end

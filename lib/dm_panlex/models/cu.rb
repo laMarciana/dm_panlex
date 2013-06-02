@@ -11,6 +11,5 @@ module DmPanlex
       property :loc, String, :length => 255, :key => true, :unique_index => [:cu_c0_key, :cu_c1_key]
       property :vb, String, :length => 255, :key => true, :required => true, :unique_index => [:cu_c0_key, :cu_c1_key]
 
-      belongs_to :lv, :parent_key => :lv, :child_key  => :lv
    end 
 end

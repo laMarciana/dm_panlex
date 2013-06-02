@@ -26,9 +26,6 @@ module DmPanlex
       it "is not valid without a degraded text" do
          should validate_presence_of :td
       end
-      it "belongs to a language variety (lv)" do
-         should belong_to :lv
-      end
       it "has many denotations (dn)" do
          should have_many :dns
       end

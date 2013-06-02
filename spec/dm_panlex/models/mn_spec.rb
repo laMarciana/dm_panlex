@@ -14,9 +14,6 @@ module DmPanlex
       it "is not valid without an approver" do
          should validate_presence_of :ap
       end
-      it "belongs to an approver (ap)" do
-         should belong_to :ap
-      end
       it "has many definitions (df)" do
          should have_many :dfs
       end

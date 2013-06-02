@@ -8,7 +8,5 @@ module DmPanlex
       property :mn, Integer, :required => true, :unique_index => :dm_mn_key
       property :ex, Integer, :required => true, :unique_index => :dm_mn_key
 
-      belongs_to :ex, :parent_key => :ex, :child_key  => :ex
-      belongs_to :mn, :parent_key => :mn, :child_key  => :mn
    end
 end

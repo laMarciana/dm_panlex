@@ -11,10 +11,10 @@ module DmPanlex
       property :am, Boolean, :required => true, :default => true
       property :tt, Text, :required => true
 
-      has n, :avs, :parent_key => :lv, :child_key => :lv, :constraint => :destroy
-      has n, :cps, :parent_key => :lv, :child_key => :lv
-      has n, :cus, :parent_key => :lv, :child_key => :lv
-      has n, :dfs, :parent_key => :lv, :child_key => :lv
-      has n, :exs, :parent_key => :lv, :child_key => :lv
+      has n, :avs, :model => 'Av', :child_key => :lv, :constraint => :destroy
+      has n, :cps, :model => 'Cp', :child_key => :lv
+      has n, :cus, :model => 'Cu', :child_key => :lv
+      has n, :dfs, :model => 'Df', :child_key => :lv
+      has n, :exs, :model => 'Ex', :child_key => :lv
    end
 end

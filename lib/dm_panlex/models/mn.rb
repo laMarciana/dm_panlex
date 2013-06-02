@@ -7,11 +7,9 @@ module DmPanlex
       property :mn, Integer, :key => true
       property :ap, Integer, :required => true, :index => true
 
-      belongs_to :ap, :parent_key => :ap, :child_key  => :ap
-
-      has n, :dfs, :parent_key => :mn, :child_key => :mn
-      has n, :dms, :parent_key => :mn, :child_key => :mn
-      has n, :dns, :parent_key => :mn, :child_key => :mn
-      has n, :mis, :parent_key => :mn, :child_key => :mn
+      has n, :dfs, :model => 'Df', :child_key => :mn
+      has n, :dms, :model => 'Dm', :child_key => :mn
+      has n, :dns, :model => 'Dn', :child_key => :mn
+      has n, :mis, :model => 'Mi', :child_key => :mn
    end
 end

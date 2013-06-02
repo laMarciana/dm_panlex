@@ -8,8 +8,5 @@ module DmPanlex
       it "has a property iso3 (iso3)" do
          should have_property :iso3
       end
-      it "belongs to a language code (lc)" do
-         should belong_to :lc
-      end
    end
 end

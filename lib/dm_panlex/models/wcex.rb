@@ -7,6 +7,6 @@ module DmPanlex
       property :ex, Integer, :key => true
       property :tt, Text, :required => true, :unique_index => true
 
-      has n, :wcs, :parent_key => :ex, :child_key => :ex
+      has n, :wcs, :model => 'Wc', :child_key => :ex
    end
 end

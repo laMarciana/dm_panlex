@@ -26,8 +26,5 @@ module DmPanlex
       it "is not valid without" do
          should validate_presence_of :vl
       end
-      it "belongs to a denotation (dn)" do
-         should belong_to :dn
-      end
    end
 end

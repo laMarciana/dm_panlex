@@ -38,9 +38,6 @@ module DmPanlex
       it "is not valid without a label" do
          should validate_presence_of :tt
       end
-      it "belongs to a language code (lc)" do
-         should belong_to :lc
-      end
       it "has many language approver varieties (av)" do
          should have_many :avs
       end
