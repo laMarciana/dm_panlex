@@ -8,6 +8,6 @@ module DmPanlex
       property :tp, String, :length => 1, :required => true
 
       has n, :i1s, :parent_key => :lc, :child_key => :iso3
-      has n, :lvs, :parent_key => :lc, :child_key => :lc
+      has n, :lvs, :model => 'Lv', :child_key => :lc
    end
 end

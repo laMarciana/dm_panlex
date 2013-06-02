@@ -11,8 +11,6 @@ module DmPanlex
       property :am, Boolean, :required => true, :default => true
       property :tt, Text, :required => true
 
-      belongs_to :lc, :parent_key => :lc, :child_key  => :lc
-
       has n, :avs, :parent_key => :lv, :child_key => :lv, :constraint => :destroy
       has n, :cps, :parent_key => :lv, :child_key => :lv
       has n, :cus, :parent_key => :lv, :child_key => :lv
