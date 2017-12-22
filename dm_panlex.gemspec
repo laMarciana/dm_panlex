@@ -10,8 +10,6 @@ Gem::Specification.new do |s|
    s.files = `git ls-files`.split("\n")
 
    s.add_runtime_dependency "data_mapper", "~>1.2"
-   s.add_runtime_dependency "yard", "~>0.8"
-   s.add_runtime_dependency "yard-dm", "~>0.1"
 
    s.add_development_dependency "rspec", "~>2.11"
    s.add_development_dependency "dm-rspec", "~>0.2"
